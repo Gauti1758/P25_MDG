@@ -1,0 +1,17 @@
+BROKER_HOSTNAME   = "192.168.99.116"
+BROKER_PORT       = 18883
+MDG_CLIENT_ID  = "MDG_V4"
+SENDER_CLIENT_ID = "MDG_V4_SENDER"
+TOPIC_TO_RECEIVE_DATA = "mdg_settings"
+TOPIC_TO_TRANSMIT_TEMP_DATA = "temperature"
+TOPIC_TO_TRANSMIT_HUMID_DATA = "humidity"
+TOPIC_TO_TRANSMIT_IR_DATA = "infrared"
+TOPIC_TO_TRANSMIT_MOISTURE_DATA = "moisture"
+TOPIC_TO_TRANSMIT_PRESSURE_DATA = "pressure"
+DEVICE_ID = ["mgd_01", "mgd_02", "mgd_03", "mgd_04", "mgd_05", "mgd_06", "mgd_07", "mgd_08"]
+SYSLOG_HOST = "192.168.99.184"
+SYSLOG_PORT = 1514
+
+"""
+base-topic/process/port/#
+"""
